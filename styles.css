@@ -1,13 +1,17 @@
 body{
-    width: 100%;
 display: grid;
 justify-content: center;
 text-align: center;
 background-color: rgba(122, 191, 191, .5);
+grid-template-areas: 
+"nav nav nav"
+"header header header"
+"main main main"
+"footer footer footer";
 }
 
 header, main, footer, #navmenu {
-width:1280px;
+width: 1280px;
 
 
 }
@@ -96,7 +100,6 @@ nav {
  }
 
  nav ul {
-    display: inline-flex;
     list-style: none;
     padding: 0;
  }
